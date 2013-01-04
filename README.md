@@ -7,8 +7,8 @@ version 0.0.1
 <h2>Documentation</h2>
 
 <h6>Require files:</h6>
-[prices.less](https://github.com/balmor/generic-prices/blob/master/less/prices.less) - don't change this file, if you want change style you must add new file like "custom-styles.less" <br>
-[vars-prices.less](https://github.com/balmor/generic-prices/blob/master/less/vars-prices.less) - you can set generic styles
+[prices.less](https://github.com/balmor/generic-prices/blob/master/less/prices.less) - base file for magento, should be in (skin\frontend\base\default\css\catalog) - don't change this file <br>
+[vars-prices.less](https://github.com/balmor/generic-prices/blob/master/less/vars-prices.less) - and the local file variables
 
 Default Magento Generic Prices HTML for <b>Regular Price</b> - we can't change this html:
 ```html
@@ -39,4 +39,4 @@ and for <b>Discount, Old & Special prices</b>:
 
 
 <h2>How it works</h2>
-You can see how it works <a href="http://generic.balmor.eu/prices/">here</a>.
+You can see exmaple page <a href="http://generic.balmor.eu/prices/">here</a>.
