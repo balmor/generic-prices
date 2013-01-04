@@ -1,0 +1,82 @@
+/**
+ * Price Box for Products
+ *
+ * @category    design
+ * @author      Damian Duda <dduda@nexway.com>
+ * @package     base_default
+ *
+ */
+
+// PRICE BOX
+
+/* Price Box */
+.price-box {
+    display: @price-box-display;
+    font: @price-box-font;
+    color: @price-box-color;
+    line-height: @price-box-line-height;
+    .text-overflow;
+
+    p {
+        padding-bottom: 0;
+    }
+
+    // when there is only regular price
+    /* Regular price */
+    .regular-price {
+        display: @price-box-regular-price-display;
+
+        .price {
+            display: @price-box-regular-display;
+            color: @price-box-regular-color;
+            font-size: @price-box-regular-font-size;
+            font-weight: @price-box-regular-font-weight;
+        }
+    }
+
+    // when there is a discount the span.discount is automatically added via JS
+    /* Discount */
+    .discount {
+        display: @price-box-discount-display;
+        background: @price-box-discount-background;
+        color: @price-box-discount-color;
+        font-size: @price-box-discount-font-size;
+        font-style: @price-box-discount-font-style;
+        .border-radius(@price-box-discount-border-radius);
+        padding: @price-box-discount-padding;
+        line-height: @price-box-discount-line-height;
+    }
+
+    /* Old price */
+    .old-price {
+        display: @price-box-old-price-display;
+        margin: @price-box-old-price-margin;
+
+        .price-label {
+            display: @price-box-old-label-display;
+        }
+
+        .price {
+            display: @price-box-old-display;
+            text-decoration: @price-box-old-text-decoration;
+            color: @price-box-old-color;
+            font-weight: @price-box-old-font-weight;
+        }
+    }
+
+    /* Special price */
+    .special-price {
+        display: @price-box-special-price-display;
+        font: @price-box-special-price-font;
+
+        .price-label {
+            display: @price-box-special-label-display;
+        }
+
+        .price {
+            display: @price-box-special-display;
+            color:  @price-box-special-color;
+            font-weight: @price-box-special-font-weight;
+        }
+    }
+}
