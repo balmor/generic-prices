@@ -2,7 +2,7 @@ Generic Prices
 ================
 
 <h2>Version</h2>
-version 0.0.1
+version 0.1.2
 
 <h2>Documentation</h2>
 
